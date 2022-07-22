@@ -63,7 +63,7 @@ const ThirdPage = () => {
     </Swiper>
 
     {/*stack */}
-    <div className="mt-[10%] md:mt-[5%] lg:mt-[5%] landscape:mt-[5%] landscape:md:mt-[2%] lg:landscape:mt-1%] landscape:xl:block ">
+    <div className="mt-[5%] md:mt-[5%] lg:mt-[5%] landscape:mt-[5%] landscape:md:mt-[2%] lg:landscape:mt-1%] landscape:xl:block ">
       <p className="text-white ml-[10%] font-bold md:text-2xl lg:text-3xl lg:landscape:text-2xl md:landscape:mt-[5%] md:mt-[10%] xl:landscape:text-4xl xl:landscape:mt-[3%] xl:text-5xl">STACK TECHNIQUE</p>
         <div className="hidden md:landscape:hidden md:landscape:flex md:landscape:justify-around md:landscape:mr-[7%] md:landscape:ml-[7%] md:landscape:mt-[5%] lg:hidden landscape:lg:block landscape:lg:flex lg:flex justify-around lg:ml-[7%] lg:mr-[7%] lg:mt-[3%]  landscape:xl:mt-[2%]">
           <div className="tooltip lg:w-[5%] landscape:xl:w-[3%] landscape:md:w-[6%]">
