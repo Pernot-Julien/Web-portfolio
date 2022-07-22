@@ -1,0 +1,17 @@
+#orientation {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+#move{
+    animation-name: upAndDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   }
+   
+   @keyframes upAndDown {
+    0% {top:84%}
+    50% {top:82%}
+    100% {top:84%}
+}
+   

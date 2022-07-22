@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Urbanist:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Nunito:wght@200&family=Urbanist:ital,wght@1,100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
