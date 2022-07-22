@@ -1,4 +1,3 @@
-import Navbar from "../Navbar";
 import FirstPage from "../FirstPage";
 import FourthPage from "../FourthPage";
 import SecondPage from "../SecondPage";

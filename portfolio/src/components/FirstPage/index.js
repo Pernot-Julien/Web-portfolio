@@ -1,7 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { HashLink } from 'react-router-hash-link';
-import { useEffect } from 'react'; 
-import { useNavigate } from 'react-router-dom';
 
 import { changeDisplayMenu } from '../../actions/index';
 
