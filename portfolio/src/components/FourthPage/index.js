@@ -32,7 +32,7 @@ const FourthPage = () => {
   
     {/* Pagging number */}
     <div className="absolute top-[87%] left-[5%] md:top-[83%] landscape:top-[90%] landscape:md:top-[85%] lg:top-[88%] landscape:xl:top-[80%]">
-      <p className="text-white text-6xl font-bold underline md:text-8xl landscape:text-7xl landscape:xl:text-[10rem] xl:text-[12rem] ">04</p>
+      <p className="text-white text-6xl font-bold underline md:text-8xl landscape:text-7xl landscape:xl:text-[8rem] xl:text-[12rem] ">04</p>
     </div>
 
     {/* Next page */}
@@ -43,39 +43,28 @@ const FourthPage = () => {
     {/* contact */}
     <div className="landscape:xl:flex ">
       <div>
-        <p className="text-white ml-[10%] pt-[10%] md:pt-[5%] font-bold md:text-2xl lg:pt-[3%] xl:text-3xl landscape:xl:ml-[30%] landscape:xl:mt-[3%] xl:text-5xl landscape:xl:text-4xl">ME CONTACTER</p>
+        <p className="text-white ml-[10%] pt-[10%] md:pt-[5%] font-bold md:text-2xl lg:pt-[3%] xl:text-3xl landscape:xl:ml-[25%] landscape:xl:mt-[3%] xl:text-5xl landscape:xl:text-4xl">ME CONTACTER</p>
 
     {/* Form */}
-      <div className="w-[80%] md:hidden mt-[10%] bg-black mx-auto">
-        <form ref={form} onSubmit={sendEmail} >
+      
+        <form ref={form} onSubmit={sendEmail} className="w-[80%] mt-[10%] bg-black mx-auto landscape:xl:w-[30vw] landscape:xl:ml-[10vw]" >
           <label className="hidden">Email</label>
-          <input type="email" name="user_email" placeholder="Email" className="rounded-xl placeholder:pl-[5%] mb-[5%] w-[100%] "/>
+          <input type="email" name="user_email" placeholder="Email" className="rounded-xl placeholder:pl-[5%] mb-[5%] w-[100%] landscape:xl:h-[5vh] "/>
           <label className="hidden">Name</label>
-            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl placeholder:pl-[5%] mb-[5%]  w-[100%]"  />
+            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl placeholder:pl-[5%] mb-[5%]  w-[100%] landscape:xl:h-[5vh]"  />
           <label className="hidden">Message</label>
-          <textarea name="message" placeholder="Message" className="rounded-xl placeholder:pl-[5%] mb-[5%]  w-[100%]" />
-          <input type="submit" value="Envoyer" className="bg-neutral-600 text-white h-[4vh] w-[20vw] rounded-xl" />
+          <textarea name="message" placeholder="Message" className="rounded-xl placeholder:pl-[5%] mb-[5%] w-[100%] landscape:xl:h-[25vh]" />
+          <div>
+          <input type="submit" value="Envoyer" className="bg-neutral-600 text-white h-[4vh] w-[20vw] rounded-xl landscape:xl:w-[15vh]" />
+          </div>
         </form> 
 
-       </div>
-        <div className="hidden md:block landscape:xl:ml-[17%]">
-          <div className="flex space-x-[5%] mb-[5%] landscape:mb-[3%] landscape:xl:mb-[10%] landscape:xl:mt-[20%]">
-            <img className="w-[6%] ml-[15%] mt-[7%] landscape:w-[5%] md:w-[5%] landscape:md:mt-[5%] landscape:md:w-[4%] landscape:xl:w-[2%] landscape:xl:h-[2%] landscape:xl:mt-[2%] landscape:xl:w-[7%]" src={mail} alt="Mon email"></img>
-            <p className="text-white text-xs flex items-center mt-[7%] xl:text-2xl md:text-lg landscape:xl:mt-[2%] ">julienxpernot@gmail.com</p>
-          </div>
-          <div className="flex space-x-[5%] mb-[5%] landscape:mb-[3%] landscape:xl:mb-[10%]">
-            <img className="w-[6%] ml-[15%] landscape:w-[5%] md:w-[5%] landscape:md:w-[4%] landscape:xl:w-[7%]" src={phone} alt="Mon téléphone"></img>
-            <p className="text-white text-xs flex items-center xl:text-2xl md:text-lg">06.38.81.50.89</p>
-          </div>
-          <div className="flex space-x-[5%] mb-[5%]">
-            <img className="w-[6%] ml-[15%] landscape:w-[5%] md:w-[5%] landscape:md:w-[4%] landscape:xl:w-[7%]" src={location} alt="Mon adresse"></img>
-            <p className="text-white text-xs flex items-center xl:text-2xl md:text-lg">25250 Onans</p>
-          </div>
-        </div>
+     
+       
       </div>
 
      {/* Google Frame */}
-      <iframe className="h-[25vh] xl:block landscape:xl:w-[110vh] landscape:xl:h-[50vh] landscape:xl:mt-[10%] lg:hidden landscape:md:h-[70vh] landscape:md:w-[120vh] w-[80%] mx-auto mt-[15%] landscape:h-[70vh] landscape:mt-[5%] rounded-[5%] landscape:rounded-[3%] md:w-[50vh] md:h-[40vh] md:mt-[8%] landscape:md:h-[40vh] landscape:xl:h-[65vh] landscape:xl:w-[110vh] landscape:xl:ml-[5%]"
+      <iframe className="h-[25vh] xl:block landscape:xl:w-[40vw] landscape:xl:h-[49vh] landscape:xl:mt-[8%] lg:hidden landscape:md:h-[70vh] landscape:md:w-[120vh] w-[80%] mx-auto mt-[15%] landscape:h-[70vh] landscape:mt-[5%] rounded-[5%] landscape:rounded-[3%] md:w-[50vh] md:h-[40vh] md:mt-[8%] landscape:md:h-[40vh] landscape:xl:h-[65vh] landscape:xl:w-[110vh] landscape:xl:ml-[10%]"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21559.22738193902!2d6.781229666644607!3d47.51127201301764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479216e45d30e587%3A0xdcf137ffafbeb3eb!2sMairie%20de%20Montb%C3%A9liard!5e0!3m2!1sfr!2sfr!4v1658404791991!5m2!1sfr!2sfr" 
           style={{ border: 0 }} 
           allowfullscreen="" 

@@ -21,7 +21,7 @@ const ThirdPage = () => {
   
     {/* Pagging number */}
     <div className="absolute top-[87%] left-[5%] md:top-[83%] landscape:top-[90%] landscape:md:top-[85%] lg:top-[88%] landscape:xl:top-[80%]">
-      <p className="text-white text-6xl font-bold underline md:text-8xl landscape:text-7xl landscape:xl:text-[8rem] xl:text-[12rem] landscape:xl:text-[10rem]">03</p>
+      <p className="text-white text-6xl font-bold underline md:text-8xl landscape:text-7xl landscape:xl:text-[8rem] xl:text-[12rem] landscape:xl:text-[8rem]">03</p>
     </div>
   
     {/* Next page */}
@@ -36,7 +36,7 @@ const ThirdPage = () => {
     </div>
     
     {/* xl version */}
-    <p className="hidden md:block landscape:md:block md:text-2xl text-3xl landscape:xl:block text-white ml-[10%] pt-[3%] font-bold xl:landscape:text-4xl xl:text-5xl">MES REALISATIONS</p>
+    <p className="hidden md:block landscape:md:block md:text-2xl text-3xl landscape:xl:none text-white ml-[10%] pt-[3%] font-bold xl:landscape:text-4xl xl:text-5xl">MES REALISATIONS</p>
     <div className="hidden md:block md:flex md:justify-around landscape:md:block landscape:md:flex md:mt-[5%] landscape:xl:block landscape:xl:flex landscape:xl:justify-around landscape:xl:w-[70%] landscape:xl:m-auto landscape:md:justify-around">
       <div className="flex flex-col landscape:xl:mt-[2%]">
         <a href="http://mypiggybank.surge.sh"><img className="rounded-[5%] h-[50vh] mx-auto mt-[1%] md:w-[30vh] md:h-[22vh] landscape:md:w-[50vh] landscape:md:h-[35vh] " src={piggyXl} alt="site My Piggy Bank"></img></a>
