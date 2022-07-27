@@ -49,11 +49,11 @@ const FourthPage = () => {
       <div className="w-[80%] md:hidden mt-[10%] bg-black mx-auto">
         <form ref={form} onSubmit={sendEmail} >
           <label className="hidden">Email</label>
-          <input type="email" name="user_email" placeholder="Email" className="rounded-xl placeholder:pl-[5%] mb-[5%] h-[4vh] w-[100%]"/>
+          <input type="email" name="user_email" placeholder="Email" className="rounded-xl placeholder:pl-[5%] mb-[5%] w-[100%] "/>
           <label className="hidden">Name</label>
-            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl placeholder:pl-[5%] mb-[5%] h-[4vh] w-[100%]"  />
+            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl placeholder:pl-[5%] mb-[5%]  w-[100%]"  />
           <label className="hidden">Message</label>
-          <textarea name="message" placeholder="Message" className="rounded-xl placeholder:pl-[5%] mb-[5%] h-[10vh] w-[100%]" />
+          <textarea name="message" placeholder="Message" className="rounded-xl placeholder:pl-[5%] mb-[5%]  w-[100%]" />
           <input type="submit" value="Envoyer" className="bg-neutral-600 text-white h-[4vh] w-[20vw] rounded-xl" />
         </form> 
 
@@ -74,7 +74,7 @@ const FourthPage = () => {
         </div>
       </div>
 
-      {/* Google Frame */}
+     {/* Google Frame */}
       <iframe className="h-[25vh] xl:block landscape:xl:w-[110vh] landscape:xl:h-[50vh] landscape:xl:mt-[10%] lg:hidden landscape:md:h-[70vh] landscape:md:w-[120vh] w-[80%] mx-auto mt-[15%] landscape:h-[70vh] landscape:mt-[5%] rounded-[5%] landscape:rounded-[3%] md:w-[50vh] md:h-[40vh] md:mt-[8%] landscape:md:h-[40vh] landscape:xl:h-[65vh] landscape:xl:w-[110vh] landscape:xl:ml-[5%]"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21559.22738193902!2d6.781229666644607!3d47.51127201301764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479216e45d30e587%3A0xdcf137ffafbeb3eb!2sMairie%20de%20Montb%C3%A9liard!5e0!3m2!1sfr!2sfr!4v1658404791991!5m2!1sfr!2sfr" 
           style={{ border: 0 }} 
@@ -88,7 +88,7 @@ const FourthPage = () => {
           allowfullscreen="" 
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+      </iframe> 
     </div>
 
   </div> 
