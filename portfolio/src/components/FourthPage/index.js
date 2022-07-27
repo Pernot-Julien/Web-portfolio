@@ -49,11 +49,11 @@ const FourthPage = () => {
       
         <form ref={form} onSubmit={sendEmail} className="w-[80%] mt-[10%] bg-black mx-auto landscape:xl:w-[30vw] landscape:xl:ml-[10vw]" >
           <label className="hidden">Email</label>
-          <input type="email" name="user_email" placeholder="Email" className="rounded-xl placeholder:pl-[5%] mb-[5%] w-[100%] landscape:xl:h-[5vh] "/>
+          <input type="email" name="user_email" placeholder="Email" className="rounded-xl mb-[5%] w-[100%] landscape:xl:h-[5vh] pl-[5%] "/>
           <label className="hidden">Name</label>
-            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl placeholder:pl-[5%] mb-[5%]  w-[100%] landscape:xl:h-[5vh]"  />
+            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl  mb-[5%]  w-[100%] landscape:xl:h-[5vh] pl-[5%]"  />
           <label className="hidden">Message</label>
-          <textarea name="message" placeholder="Message" className="rounded-xl placeholder:pl-[5%] mb-[5%] w-[100%] landscape:xl:h-[25vh]" />
+          <textarea name="message" placeholder="Message" className="rounded-xl  mb-[5%] w-[100%] landscape:xl:h-[25vh] pl-[5%]" />
           <div>
           <input type="submit" value="Envoyer" className="bg-neutral-600 text-white h-[4vh] w-[20vw] rounded-xl landscape:xl:w-[15vh]" />
           </div>
