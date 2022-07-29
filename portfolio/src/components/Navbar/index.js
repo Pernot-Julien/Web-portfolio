@@ -18,7 +18,7 @@ const Navbar = () => {
     };
 
 return(
-    <nav className="sticky top-0 flex bg-black items-center z-20 md:h-[8%] lg:space-x-[10%] xl:space-x-[20%] md:h-[5%] pt-[1%] landscape:xl:h-[20%]">
+    <nav className=" flex bg-black items-center z-20 md:h-[8%] lg:space-x-[10%] xl:space-x-[20%] md:h-[5%] pt-[1%] pb-[1%] ">
     <h1 className="ml-[5%] bg-black font-name text-white text-xl bg-black md:text-2xl min-w-[50%] landscape:min-w-[40%] lg:text-3xl landscape:xl:text-4xl">JULIEN PERNOT</h1>
 
     <button type="button" onClick={handleButtonClick}

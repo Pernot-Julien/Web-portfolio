@@ -64,7 +64,7 @@ const FourthPage = () => {
       </div>
 
      {/* Google Frame */}
-      <iframe className="h-[25vh] xl:block landscape:xl:w-[40vw] landscape:xl:h-[51vh] landscape:xl:mt-[8%] lg:hidden landscape:md:h-[70vh] landscape:md:w-[120vh] w-[80%] mx-auto mt-[15%] landscape:h-[70vh] landscape:mt-[5%] rounded-[5%] landscape:rounded-[3%] md:w-[50vh] md:h-[40vh] md:mt-[8%] landscape:md:h-[40vh]  landscape:xl:ml-[10%]"
+      <iframe className="h-[25vh] xl:block landscape:xl:w-[40vw] landscape:xl:h-[51vh] landscape:xl:mt-[8%] lg:hidden landscape:md:h-[70vh] landscape:md:w-[120vh] w-[80%] mx-auto mt-[15%] landscape:h-[70vh] landscape:mt-[5%] rounded-[5%] landscape:rounded-[1rem] md:w-[50vh] md:h-[40vh] md:mt-[8%] landscape:md:h-[40vh]  landscape:xl:ml-[10%]"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21559.22738193902!2d6.781229666644607!3d47.51127201301764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479216e45d30e587%3A0xdcf137ffafbeb3eb!2sMairie%20de%20Montb%C3%A9liard!5e0!3m2!1sfr!2sfr!4v1658404791991!5m2!1sfr!2sfr" 
           style={{ border: 0 }} 
           allowfullscreen="" 

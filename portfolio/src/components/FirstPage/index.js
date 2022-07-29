@@ -1,6 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { HashLink } from 'react-router-hash-link';
-
 import { changeDisplayMenu } from '../../actions/index';
 
 import linkedin from '../../assets/images/linkedin.jpg';
@@ -14,27 +13,21 @@ import './style.css';
 
  const FirstPage = () => {
 
+  const dispatch = useDispatch();
+  
+    const handleButtonClick = () => {
+      console.log('je click');
+      dispatch(changeDisplayMenu())
+    };
+                                         
   const openBurgerMenu = useSelector((state) => state.displayBurger);
   console.log(openBurgerMenu);
 
-  const dispatch = useDispatch();
-
-  const handleButtonClick = () => {
-    console.log('je click');
-    dispatch(changeDisplayMenu())
-  };
 
  return ( 
 <div id="accueil" className="bg-black h-screen relative landscape:h-[800px] landscape:xl:h-screen ">
 
-  {/* Socials Networks */}
-  <div className="w-[5%] h-[6%] bg-transparent absolute top-[50%] translate-y-[-50%] left-[5%] z-10 md:w-[3%] landscape:w-[3%] landscape:xl:w-[2%]">
-    <a href="https://github.com/Pernot-Julien"><img className="pb-3" src={github} alt="Ma page Github"></img></a>
-    <a href="https://www.linkedin.com/in/pernotjulien"><img className="pb-2" src={linkedin} alt="Mon Linkedin"></img></a>
-  </div>
-
-  {/* {/* Navbar */}
-  <nav className="flex bg-black items-center z-20 md:h-[8%] lg:space-x-[10%] xl:space-x-[20%] md:h-[5%] pt-[1%]">
+<nav className=" flex bg-black items-center z-20 md:h-[8%] lg:space-x-[10%] xl:space-x-[20%] md:h-[5%] pt-[1%] pb-[1%] ">
     <h1 className="ml-[5%] bg-black font-name text-white text-xl bg-black md:text-2xl min-w-[50%] landscape:min-w-[40%] lg:text-3xl landscape:xl:text-4xl">JULIEN PERNOT</h1>
 
     <button type="button" onClick={handleButtonClick}
@@ -60,10 +53,18 @@ import './style.css';
         <li className="hover:underline underline-offset-8"><HashLink smooth to="/contact#fourthPage">Contact</HashLink></li>
       </ul>
     </div>
-  </nav> 
+  </nav>
 
+  {/* Socials Networks */}
+  <div className="w-[5%] h-[6%] bg-transparent absolute top-[50%] translate-y-[-50%] left-[5%] z-10 md:w-[3%] landscape:w-[3%] landscape:xl:w-[2%]">
+    <a href="https://github.com/Pernot-Julien"><img className="pb-3" src={github} alt="Ma page Github"></img></a>
+    <a href="https://www.linkedin.com/in/pernotjulien"><img className="pb-2" src={linkedin} alt="Mon Linkedin"></img></a>
+  </div>
+
+  {/* {/* Navbar */}
+  
   {/* CatchPhrase */}
-  <div className="text-white mt-[20%] bg-black md:mt-[7%] lg:hidden landscape:mt-[5%]  ">
+  <div className="text-white bg-black lg:hidden pt-[15%] landscape:pt-[10%]  ">
     <p id="right"className=" font-bold text-5xl md:text-6xl text-center">DEVELOPPEUR</p>
     <p id="left" className="text-3xl md:text-3xl md:tracking-[2.1rem] md:translate-x-[1.2rem] text-center tracking-[1.2rem] translate-x-[0.6rem]">FULLSTACK</p>
     <p id="blur"className="text-4xl md:text-5xl text-center">REACT - PHP</p>
@@ -71,14 +72,14 @@ import './style.css';
 
  
   {/*image */}
-  <div className="mt-[10%] md:mt-[5%] landscape:mt-[5%] lg:mt-[10%]"> 
+  <div> 
         <div className="text-white hidden lg:block landscape:md:absolute landscape:md:left-[52%] landscape:md:top-[40%] xl:absolute xl:left-[52%] xl:top-[40%]">
           <p id="right" className="font-bold text-center text-5xl md:text-6xl lg:text-7xl  xl:text-[5rem] landscape:md:text-6xl landscape:xl:text-8xl">DEVELOPPEUR</p>
           <p id="left" className="text-center text-5xl md:text-5xl lg:text-6xl xl:tracking-[2.2rem] xl:ml-[3%] landscape:md:text-5xl landscape:xl:text-7xl">FULLSTACK</p>
           <p id="blur" className="text-center text-4xl md:text-5xl lg:text-5xl landscape:md:text-4xl landscape:xl:text-6xl">REACT - PHP</p>
         </div>
-        <img className="imgSize h-[45vh] m-auto lg:h-[50vh] lg:mt-[7%] landscape:h-[120vh] lg:landscape:h-[70vh] xl:hidden landscape:md:h-[90vh]" src={face} alt="Mon visage"></img>
-        <img className="imgSize xl:block xl:ml-[15%] xl:mt-[5%] hidden lg:w-[60vh] xl:w-[80vh]" src={face} alt="Mon visage"></img>
+        <img className="imgSize h-[45vh] m-auto lg:h-[50vh] mt-[15%] lg:mt-[7%] landscape:h-[120vh] lg:landscape:h-[70vh] xl:hidden landscape:md:h-[90vh] md:h-[55vh] md:mt-[5%] landscape:mt-[10%] landscape:lg:mt-[0%] landscape:lg:pt-[10%] landscape:lg:h-[90vh] landscape:lg:ml-[10%]" src={face} alt="Mon visage"></img>
+        <img className="imgSize xl:block xl:ml-[15%] hidden lg:w-[60vh] xl:w-[80vh] xl:landscape:pt-[3%]" src={face} alt="Mon visage"></img>
   </div> 
 
    {/* Pagging number */}
