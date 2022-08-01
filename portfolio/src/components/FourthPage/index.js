@@ -38,11 +38,11 @@ const FourthPage = () => {
     {/* contact */}
     <div className="landscape:xl:flex landscape:lg:flex landscape:md:flex ">
       <div>
-        <p className="text-white ml-[10%] pt-[10%] md:pt-[5%] font-bold md:text-2xl lg:pt-[3%] xl:text-3xl landscape:xl:ml-[25%] landscape:xl:mt-[3%] xl:text-5xl landscape:xl:text-4xl">ME CONTACTER</p>
+        <p className="text-white ml-[10%] pt-[10%] md:pt-[5%] font-bold md:text-2xl lg:pt-[3%] xl:text-3xl landscape:xl:ml-[25%] landscape:xl:mt-[3%] xl:text-5xl landscape:xl:text-4xl landscape:md:ml-[20%]">ME CONTACTER</p>
 
     {/* Form */}
       
-        <form ref={form} onSubmit={sendEmail} className="w-[80%] mt-[10%] bg-black mx-auto landscape:xl:w-[30vw] landscape:xl:ml-[10vw] landscape:lg:ml-[20%] landscape:lg:mt-[20%] landscape:md:mt-[17%] " >
+        <form ref={form} onSubmit={sendEmail} className="w-[80%] mt-[10%] bg-black mx-auto landscape:xl:w-[30vw] landscape:xl:ml-[10vw] landscape:lg:ml-[20%] landscape:lg:mt-[20%] landscape:md:mt-[17%] landscape:md:ml-[25%] " >
           <label className="hidden">Email</label>
           <input type="email" name="user_email" placeholder="Email" className="rounded-xl mb-[5%] w-[100%] landscape:xl:h-[5vh] pl-[5%] landscape:lg:h-[5vh] landscape:lg:w-[60%] landscape:md:w-[70%]"/>
           <label className="hidden">Name</label>
@@ -59,7 +59,7 @@ const FourthPage = () => {
       </div>
 
      {/* Google Frame */}
-      <iframe className="h-[25vh] xl:block landscape:xl:w-[40vw] landscape:xl:h-[51vh] landscape:xl:mt-[8%] lg:hidden landscape:md:h-[70vh] landscape:md:w-[90vh] w-[80%] mx-auto mt-[15%] landscape:h-[70vh] landscape:mt-[5%] rounded-[5%] landscape:rounded-[1rem] md:w-[50vh] md:h-[40vh] md:mt-[8%] landscape:md:h-[120vh] landscape:md:mr-[10%] landscape:md:mt-[15%]  landscape:xl:ml-[10%]"
+      <iframe className="h-[25vh] xl:block landscape:xl:w-[40vw] landscape:xl:h-[51vh] landscape:xl:mt-[8%] lg:hidden landscape:md:h-[70vh] landscape:md:w-[90vh] w-[80%] mx-auto mt-[15%] landscape:h-[70vh] landscape:mt-[5%] rounded-[5%] landscape:rounded-[1rem] md:w-[50vh] md:h-[40vh] md:mt-[8%] landscape:md:h-[120vh] landscape:md:mr-[12%] landscape:md:mt-[15%]  landscape:xl:ml-[10%]"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21559.22738193902!2d6.781229666644607!3d47.51127201301764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479216e45d30e587%3A0xdcf137ffafbeb3eb!2sMairie%20de%20Montb%C3%A9liard!5e0!3m2!1sfr!2sfr!4v1658404791991!5m2!1sfr!2sfr" 
           style={{ border: 0 }} 
           allowfullscreen="" 

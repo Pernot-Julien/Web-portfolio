@@ -135,7 +135,7 @@ const ThirdPage = () => {
         </div>
 
 
-        <div className="flex landscape:md:mt-[7%] justify-around mt-[7%] bg-black w-[80%] mx-auto lg:mt-[5%] landscape:mt-[5%] landscape:md:mt-[3%] landscape:lg:hidden xl:mt-[10%]">
+        <div className="flex landscape:md:mt-[7%] justify-around mt-[7%] bg-black w-[80%] mx-auto lg:mt-[5%] landscape:mt-[5%] landscape:md:mt-[5%] landscape:lg:hidden xl:mt-[10%] landscape:md:w-[88%]">
           <div className="tooltip w-[10%] lg:w-[8%] landscape:w-[7%] lg:landscape:w-[8%] md:w-[10%]">
             <svg className="" viewBox="0 0 128 128">
               <path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"></path><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"></path><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"></path><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"></path><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"></path><path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"></path>
@@ -167,7 +167,7 @@ const ThirdPage = () => {
         <p className="tooltiptext text-[0.5rem] md:text-[0.7rem] ">React</p>
           </div>
         </div>      
-        <div className="flex landscape:md:mt-[10%] justify-around mt-[10%] w-[80%] mx-auto lg:mt-[5%] md:mt-[5%] landscape:mt-[5%] landscape:md:mt-[3%] landscape:lg:hidden md:mt-[10%] xl:mt-[10%]">
+        <div className="flex landscape:md:mt-[10%] justify-around mt-[10%] w-[80%] mx-auto lg:mt-[5%] md:mt-[5%] landscape:mt-[5%] landscape:md:mt-[3%] landscape:lg:hidden md:mt-[10%] xl:mt-[10%] landscape:md:w-[88%]">
           <div className="tooltip w-[10%] lg:w-[8%] landscape:w-[7%] lg:landscape:w-[8%] md:w-[10%]">
             <svg viewBox="0 0 128 128">
                     <path fill="#F34F29" d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 013.167-2.11V47.333a9.581 9.581 0 01-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333 3.264 58.123a8.133 8.133 0 000 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 00-.001-11.501z"></path>
