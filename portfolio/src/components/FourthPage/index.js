@@ -3,11 +3,6 @@ import { HashLink } from 'react-router-hash-link';
 import React, { useRef } from 'react';
 
 
-import phone from '../../assets/images/phone.jpg';
-import mail from '../../assets/images/email.jpg';
-import location from '../../assets/images/location.png';
-
-
 /* eslint-disable jsx-a11y/iframe-has-title */
 import './style.css';
 
@@ -41,21 +36,21 @@ const FourthPage = () => {
     </HashLink>
   
     {/* contact */}
-    <div className="landscape:xl:flex ">
+    <div className="landscape:xl:flex landscape:lg:flex ">
       <div>
         <p className="text-white ml-[10%] pt-[10%] md:pt-[5%] font-bold md:text-2xl lg:pt-[3%] xl:text-3xl landscape:xl:ml-[25%] landscape:xl:mt-[3%] xl:text-5xl landscape:xl:text-4xl">ME CONTACTER</p>
 
     {/* Form */}
       
-        <form ref={form} onSubmit={sendEmail} className="w-[80%] mt-[10%] bg-black mx-auto landscape:xl:w-[30vw] landscape:xl:ml-[10vw]" >
+        <form ref={form} onSubmit={sendEmail} className="w-[80%] mt-[10%] bg-black mx-auto landscape:xl:w-[30vw] landscape:xl:ml-[10vw] landscape:lg:ml-[20%] landscape:lg:mt-[20%] " >
           <label className="hidden">Email</label>
-          <input type="email" name="user_email" placeholder="Email" className="rounded-xl mb-[5%] w-[100%] landscape:xl:h-[5vh] pl-[5%] "/>
+          <input type="email" name="user_email" placeholder="Email" className="rounded-xl mb-[5%] w-[100%] landscape:xl:h-[5vh] pl-[5%] landscape:lg:h-[5vh] landscape:lg:w-[60%]"/>
           <label className="hidden">Name</label>
-            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl  mb-[5%]  w-[100%] landscape:xl:h-[5vh] pl-[5%]"  />
+            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl  mb-[5%]  w-[100%] landscape:xl:h-[5vh] pl-[5%] landscape:lg:h-[5vh] landscape:lg:w-[60%] landscape:lg:mt-[5%]"  />
           <label className="hidden">Message</label>
-          <textarea name="message" placeholder="Message" className="rounded-xl  mb-[5%] w-[100%] landscape:xl:h-[25vh] pl-[5%]" />
+          <textarea name="message" placeholder="Message" className="rounded-xl  mb-[5%] w-[100%] landscape:xl:h-[25vh] pl-[5%] landscape:lg:h-[18vh] landscape:lg:w-[60%] landscape:lg:mt-[5%]" />
           <div>
-          <input type="submit" value="Envoyer" className="bg-neutral-600 text-white h-[4vh] w-[20vw] rounded-xl landscape:xl:w-[15vh]" />
+          <input type="submit" value="Envoyer" className="bg-neutral-600 text-white h-[4vh] w-[20vw] rounded-xl landscape:xl:w-[15vh] landscape:lg:mt-[5%] landscape:lg:h-[5vh]" />
           </div>
         </form> 
 
@@ -71,7 +66,7 @@ const FourthPage = () => {
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
       </iframe>
-      <iframe className="hidden landscape:xl:hidden xl:hidden lg:landscape:block lg:landscape:mt-[5%] landscape:lg:m-auto landscape:lg:h-[35vh] landscape:lg:w-[92vh] rounded-[3%] xl:landscape:mt-[9%] xl:landscape:h-[50vh]"
+      <iframe className="hidden landscape:xl:hidden xl:hidden lg:landscape:block lg:landscape:mt-[15%] landscape:lg:m-auto landscape:lg:h-[50vh] landscape:lg:w-[62vh] rounded-[3%] xl:landscape:mt-[9%] xl:landscape:h-[50vh] landscape:lg:mr-[10%]"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21559.22738193902!2d6.781229666644607!3d47.51127201301764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479216e45d30e587%3A0xdcf137ffafbeb3eb!2sMairie%20de%20Montb%C3%A9liard!5e0!3m2!1sfr!2sfr!4v1658404791991!5m2!1sfr!2sfr"
           style={{ border: 0 }} 
           allowfullscreen="" 
