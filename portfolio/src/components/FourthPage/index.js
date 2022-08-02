@@ -42,15 +42,15 @@ const FourthPage = () => {
 
     {/* Form */}
       
-        <form ref={form} onSubmit={sendEmail} className="w-[80%] mt-[10%] bg-black mx-auto landscape:xl:w-[30vw] landscape:xl:ml-[10vw] landscape:lg:ml-[20%] landscape:lg:mt-[20%] landscape:md:mt-[17%] landscape:md:ml-[25%] " >
+        <form ref={form} onSubmit={sendEmail} className="w-[80%] mt-[10%] bg-black mx-auto landscape:xl:w-[30vw] landscape:xl:ml-[10vw] landscape:lg:ml-[20%] landscape:lg:mt-[20%] landscape:md:mt-[17%] landscape:md:ml-[25%] landscape:xl:mt-[10%] " >
           <label className="hidden">Email</label>
           <input type="email" name="user_email" placeholder="Email" className="rounded-xl mb-[5%] w-[100%] landscape:xl:h-[5vh] pl-[5%] landscape:lg:h-[5vh] landscape:lg:w-[60%] landscape:md:w-[70%]"/>
           <label className="hidden">Name</label>
-            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl  mb-[5%]  w-[100%] landscape:xl:h-[5vh] pl-[5%] landscape:lg:h-[5vh] landscape:lg:w-[60%] landscape:lg:mt-[5%] landscape:md:w-[70%]"  />
+            <input type="text" name="user_name" placeholder="Nom" className="rounded-xl  mb-[5%]  w-[100%] landscape:xl:h-[5vh] pl-[5%] landscape:lg:h-[5vh] landscape:lg:w-[60%] landscape:lg:mt-[5%] landscape:md:w-[70%] landscape:xl:mt-[1%]"  />
           <label className="hidden">Message</label>
-          <textarea name="message" placeholder="Message" className="rounded-xl  mb-[5%] w-[100%] landscape:xl:h-[25vh] pl-[5%] landscape:lg:h-[18vh] landscape:lg:w-[60%] landscape:lg:mt-[5%] landscape:md:w-[70%] landscape:md:h-[82vh]" />
+          <textarea name="message" placeholder="Message" className="rounded-xl  mb-[5%] w-[100%] landscape:xl:h-[25vh] pl-[5%] landscape:lg:h-[18vh] landscape:lg:w-[60%] landscape:lg:mt-[5%] landscape:md:w-[70%] landscape:md:h-[82vh] landscape:xl:mt-[1%]" />
           <div>
-          <input type="submit" value="Envoyer" className="bg-neutral-600 text-white h-[4vh] w-[20vw] rounded-xl landscape:xl:w-[15vh] landscape:lg:mt-[5%] landscape:lg:h-[5vh] landscape:md:h-[10vh]" />
+          <input type="submit" value="Envoyer" className="bg-neutral-600 text-white h-[4vh] w-[20vw] rounded-xl landscape:xl:w-[15vh] landscape:lg:mt-[5%] landscape:lg:h-[5vh] landscape:md:h-[10vh] landscape:xl:mt-[1%]" />
           </div>
         </form> 
 
