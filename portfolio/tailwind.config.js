@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'ld740': '740px',
+        'short': { 'raw': '(max-height: 640px)' },
+        // => @media (min-width: 640px) { ... }
       },
     },
     fontFamily: {
