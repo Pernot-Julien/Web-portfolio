@@ -36,9 +36,9 @@ const ThirdPage = () => {
     </div>
     
     {/* xl version */}
-    <p className="hidden md:block landscape:md:block md:text-2xl text-3xl landscape:xl:none text-white ml-[10%] pt-[3%] font-bold xl:landscape:text-4xl xl:text-5xl landscape:sm:block landscape:sm:text-base landscape:sm:mb-[8%]">MES REALISATIONS</p>
+    <p className="hidden md:block landscape:md:block md:text-2xl text-3xl landscape:xl:none text-white ml-[10%] pt-[3%] font-bold xl:landscape:text-4xl xl:text-5xl landscape:sm:block landscape:sm:text-base landscape:sm:mb-[8%] landscape:xl:mb-[3%]">MES REALISATIONS</p>
     <div className="landscape:sm:block landscape:sm:flex hidden md:block md:flex md:justify-around landscape:md:block landscape:md:flex md:mt-[5%] landscape:xl:block landscape:xl:flex landscape:xl:justify-around landscape:xl:w-[70%] landscape:xl:m-auto landscape:md:justify-around">
-      <div className="flex flex-col landscape:xl:mt-[2%]">
+      <div className="flex flex-col landscape:xl:mt-[1%]">
         <a href="http://mypiggybank.surge.sh"><img className="rounded-[1rem] h-[50vh] mx-auto mt-[1%] md:w-[30vh] md:h-[22vh] landscape:md:w-[50vh] landscape:md:h-[35vh] " src={piggyXl} alt="site My Piggy Bank"></img></a>
         <a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className=" md:mt-[5%] md:w-[10%] landscape:md:w-[7%] landscape:md:mt-[5%] mx-auto xl:w-[12%] xl:mt-[5%] landscape:sm:w-[5%] landscape:sm:mt-[2%]" src={github} alt=""></img></a>
       </div>
