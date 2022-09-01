@@ -35,7 +35,7 @@ const SecondPage = () => (
         <p className="text-white ml-[20%] text-sm landscape:md:text-base mt-[5%] text-justify w-[80%] mx-auto md:text-lg landscape:xl:text-xl landscape:xl:mt-[2%]">Issu d'un socle de formation PHP, j'ai pu découvrir l'utilisation d'API, la manipulation de BDD à travers l'architecture de type MVC notamment avec l'utilisation de framework comme Lumen et Laravel. Ma spécialisation React associée à Redux, a éveillé un réel engouement pour le front-end. L'utilisation de Bootstrap, Semantic UI, Tailwind facilitent la création de rendu esthétique et totalement responsive. Mes compétences full stacks m'apportent une vue d'ensemble nécessaire pour mener à bien la réalisation d'un projet.  </p>
       </div>
       <div>
-        <img className="mt-[12%] ml-[25%] w-[77vh] h-[50vh] grayscale rounded-[2rem]" src={code} alt="Mon visage"></img>
+        <img className="mt-[17%] ml-[25%] w-[77vh] h-[50vh] grayscale rounded-[2rem]" src={code} alt="Mon visage"></img>
       </div>
     </div>
       
