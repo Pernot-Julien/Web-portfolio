@@ -28,7 +28,7 @@ const SecondPage = () => (
     
     {/* Xl version */}
     <div className="hidden landscape:xl:block landscape:xl:flex">
-      <div className="w-[50%]">
+      <div className="w-[45%]">
         <p className="text-white ml-[20%] pt-[5%] font-bold md:text-2xl lg:pt-[10%] landscape:pt-[5%] lg:text-3xl ">MON PARCOURS</p>
         <p className="text-white ml-[20%] text-sm md:text-lg  landscape:md:text-base mt-[5%] text-justify w-[80%] mx-auto landscape:xl:text-xl landscape:xl:mt-[2%]">Détenteur d'un BAC STI électrotechnique obtenu en 2001, après avoir passé 20 ans en industrie, j'ai décidé l'âge de 40 ans de m'engager dans une reconversion professionnelle. Féru d'informatique et de nouvelles technologies depuis mon enfance, il était temps pour moi de trouver un métier en adéquation avec ma passion. J'ai donc décidé de reprendre les bancs "téléprésentiels" de l'école O'clock pendant 6 mois pour me former au métier de développeur web. J'ai ensuite décidé de valider mes acquis en passant le titre porfessionnel (bac +2) de Développeur web et web mobile que j'ai obtenu en Mai 2022.</p>
         <p className="text-white ml-[20%] pt-[10%] font-bold md:text-2xl lg:pt-[10%] landscape:pt-[5%] lg:text-3xl">MES COMPETENCES</p>
