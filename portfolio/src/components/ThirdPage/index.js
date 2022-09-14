@@ -7,6 +7,7 @@ import portffolio from '../../assets/images/screen_portfolio.jpg';
 import piggy from '../../assets/images/piggy.jpg';
 import piggySlide from '../../assets/images/piggyXl.jpg';
 import github from '../../assets/images/github.jpg'
+import calculator from '../../assets/images/calculator.png';
 
 import 'swiper/css';
 import './style.css';
@@ -60,6 +61,7 @@ const ThirdPage = () => {
     >
       <SwiperSlide> <a href="http://mypiggybank.surge.sh"><img src={piggySlide} alt="Mon portfolio" className="w-[75%] mx-auto rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
       <SwiperSlide><a href="https://julien-pernot.vercel.app"><img src={portffolio} alt="Mon portfolio" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-portfolio"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide><a href="https://cazio.surge.sh"><img src={calculator} alt="Ma calculatrice" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/Calculator"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
     </Swiper>
 
     {/*stack */}
