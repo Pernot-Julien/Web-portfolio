@@ -50,11 +50,11 @@ const ThirdPage = () => {
       <a href="https://github.com/Pernot-Julien/My-portfolio"><img className=" md:mt-[5%] md:w-[10%] landscape:md:w-[7%] landscape:md:mt-[5%] mx-auto xl:w-[12%] xl:mt-[5%]  landscape:sm:w-[5%] landscape:sm:mt-[2%]" src={github} alt=""></img></a>
       </div>
     </div> */}
-    <p className="md:hidden text-white ml-[10%] pt-[10%] font-bold landscape:sm:hidden">MES REALISATIONS</p>
+    <p className="md:hidden text-white ml-[10%] font-bold landscape:sm:hidden pt-[0%]">MES REALISATIONS</p>
 
     //! mobile version
     <Swiper 
-      className="md:hidden landscape:sm:hidden mt-[15%]" //! passez en block pour affichage landscape portable et landscape xl:block pour la version pc
+      className="md:hidden landscape:sm:hidden mt-[5%]" //! passez en block pour affichage landscape portable et landscape xl:block pour la version pc
       modules={[Pagination, Navigation, A11y]}
       hideOnClick= {false}
       spaceBetween={50}
