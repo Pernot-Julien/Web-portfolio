@@ -37,7 +37,7 @@ const ThirdPage = () => {
     </div>
     
     {/* xl version */}
-    <p className="hidden md:block landscape:md:block md:text-2xl text-3xl landscape:xl:none text-white ml-[10%] pt-[3%] font-bold xl:landscape:text-4xl xl:text-5xl landscape:sm:block landscape:sm:text-base landscape:sm:mb-[8%] landscape:xl:mb-[1%] landscape:sm:mb-[1%]">MES REALISATIONS</p>
+    <p className="hidden md:block landscape:md:block md:text-2xl text-3xl landscape:xl:none text-white ml-[10%] pt-[3%] font-bold xl:landscape:text-4xl xl:text-5xl landscape:sm:block landscape:sm:text-base landscape:sm:mb-[8%] landscape:xl:mb-[1%] landscape:sm:mb-[1%] landscape:lg:text-2xl">MES REALISATIONS</p>
     
     //! a décommenter pour retrouver le portfolio d'origine
    {/*  <div className="landscape:sm:block landscape:sm:flex hidden md:block md:flex md:justify-around landscape:md:block landscape:md:flex md:mt-[5%] landscape:xl:block landscape:xl:flex landscape:xl:justify-around landscape:xl:w-[70%] landscape:xl:m-auto landscape:md:justify-around">
@@ -71,7 +71,7 @@ const ThirdPage = () => {
     //! landscape mobile version
 
     <Swiper 
-      className="hidden landscape:sm:block landscape:xl:hidden landscape:sm:mt-[1%] landscape:sm:w-[80%]" //! passez en block pour affichage landscape portable et landscape xl:block pour la version pc
+      className="hidden landscape:sm:block landscape:xl:hidden landscape:sm:mt-[1%] landscape:sm:w-[80%] md:block md:mt-[5%]" //! passez en block pour affichage landscape portable et landscape xl:block pour la version pc
       modules={[Pagination, Navigation, A11y]}
       hideOnClick= {false}
       spaceBetween={10}
@@ -104,7 +104,7 @@ const ThirdPage = () => {
 
     {/*stack */}
     <div className="mt-[5%] md:mt-[5%] lg:mt-[5%] landscape:mt-[5%] landscape:md:mt-[2%] lg:landscape:mt-1%] landscape:xl:block ">
-      <p className="text-white ml-[10%] font-bold md:text-2xl lg:text-3xl lg:landscape:text-2xl md:landscape:mt-[5%] md:mt-[10%] xl:landscape:text-4xl xl:landscape:mt-[3%] xl:text-5xl landscape:sm:mt-[5%] ">STACK TECHNIQUE</p>
+      <p className="text-white ml-[10%] font-bold md:text-2xl lg:text-3xl lg:landscape:text-2xl md:landscape:mt-[5%] md:mt-[1%] xl:landscape:text-4xl xl:landscape:mt-[3%] xl:text-5xl landscape:sm:mt-[5%] landscape:lg:mt-[1%] ">STACK TECHNIQUE</p>
         <div className="hidden md:landscape:hidden md:landscape:flex md:landscape:justify-around md:landscape:mr-[7%] md:landscape:ml-[7%] md:landscape:mt-[5%] lg:hidden landscape:lg:block landscape:lg:flex lg:flex justify-around lg:ml-[7%] lg:mr-[7%] lg:mt-[3%]  landscape:xl:mt-[2%]">
           <div className="tooltip lg:w-[5%] landscape:xl:w-[3%] landscape:md:w-[6%]">
             <svg viewBox="0 0 128 128">
