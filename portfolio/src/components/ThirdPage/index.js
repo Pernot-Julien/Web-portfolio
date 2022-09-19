@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, A11y } from 'swiper';
 import { HashLink } from 'react-router-hash-link';
 
-import piggyXl from '../../assets/images/piggyXl.jpg';
 import portffolio from '../../assets/images/screen_portfolio.jpg';
 import piggy from '../../assets/images/piggy.jpg';
 import piggySlide from '../../assets/images/piggyXl.jpg';
@@ -20,41 +19,30 @@ const ThirdPage = () => {
   return (
     <div id="thirdPage" className="bg-black h-screen relative landscape:h-[800px] landscape:xl:h-screen">
   
-    {/* Pagging number */}
+   
     <div className="absolute top-[87%] left-[5%] md:top-[83%] landscape:top-[90%] landscape:md:top-[85%] lg:top-[88%] landscape:xl:top-[80%]">
       <p className="text-white text-6xl font-bold underline md:text-8xl landscape:text-7xl landscape:xl:text-[8rem] xl:text-[12rem] landscape:xl:text-[8rem]">03</p>
     </div>
   
-    {/* Next page */}
+    
     <HashLink id="move" smooth to="/apropos#fourthPage" className="absolute top-[82%] left-[90%] lg:landscape:left-[95%] lg:landscape:top-[80%]">
       <p id="orientation" className="text-white landscape:xl:text-2xl xl:text-3xl">Next<span className="">&#x2193;</span></p>
     </HashLink>
 
-    {/* text */}
+    
     <div className="hidden landscape:xl:hidden landscape:md:hidden md:hidden">
       <p className="text-white ml-[10%] md:pt-[5%] pt-[10%] font-bold md:text-2xl lg:pt-[10%] landscape:pt-[5%] lg:text-3xl landscape:xl:pt-[2%] lg:landscape:text-2xl ">MES REALISATIONS</p>
       <a href="http://mypiggybank.surge.sh"><img className="rounded-[5%] h-[30vh] mx-auto md:mt-[5%] mt-[10%] landscape:h-[70vh] landscape:mt-[5%] landscape:ml-[10%] lg:landscape:h-[40vh] landscape:xl:h-[30vh] landscape:xl:mt-[2%] md" src={piggy} alt="site My Piggy Bank"></img></a>
     </div>
     
-    {/* xl version */}
+   
     <p className="hidden md:block landscape:md:block md:text-2xl text-3xl landscape:xl:none text-white ml-[10%] pt-[3%] font-bold xl:landscape:text-4xl xl:text-5xl landscape:sm:block landscape:sm:text-base landscape:sm:mb-[8%] landscape:xl:mb-[1%] landscape:sm:mb-[1%] landscape:lg:text-2xl">MES REALISATIONS</p>
     
-    //! a décommenter pour retrouver le portfolio d'origine
-   {/*  <div className="landscape:sm:block landscape:sm:flex hidden md:block md:flex md:justify-around landscape:md:block landscape:md:flex md:mt-[5%] landscape:xl:block landscape:xl:flex landscape:xl:justify-around landscape:xl:w-[70%] landscape:xl:m-auto landscape:md:justify-around">
-      <div className="flex flex-col landscape:xl:mt-[1%]">
-        <a href="http://mypiggybank.surge.sh"><img className="rounded-[1rem] h-[50vh] mx-auto mt-[1%] md:w-[30vh] md:h-[22vh] landscape:md:w-[50vh] landscape:md:h-[35vh] " src={piggyXl} alt="site My Piggy Bank"></img></a>
-        <a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className=" md:mt-[5%] md:w-[10%] landscape:md:w-[7%] landscape:md:mt-[5%] mx-auto xl:w-[12%] xl:mt-[5%] landscape:sm:w-[5%] landscape:sm:mt-[2%]" src={github} alt=""></img></a>
-      </div>
-      <div className="flex flex-col landscape:xl:mt-[2%]">
-      <a href="julien-pernot.vercel.app"><img className="rounded-[1rem] h-[50vh] mx-auto mt-[1%] md:w-[30vh] md:h-[22vh] border-[1px] border-white landscape:md:w-[50vh] landscape:md:h-[35vh]" src={portffolio} alt="Mon portfolio"></img></a>
-      <a href="https://github.com/Pernot-Julien/My-portfolio"><img className=" md:mt-[5%] md:w-[10%] landscape:md:w-[7%] landscape:md:mt-[5%] mx-auto xl:w-[12%] xl:mt-[5%]  landscape:sm:w-[5%] landscape:sm:mt-[2%]" src={github} alt=""></img></a>
-      </div>
-    </div> */}
     <p className="md:hidden text-white ml-[10%] font-bold landscape:sm:hidden pt-[0%]">MES REALISATIONS</p>
 
-    //! mobile version
+
     <Swiper 
-      className="md:hidden landscape:sm:hidden mt-[5%]" //! passez en block pour affichage landscape portable et landscape xl:block pour la version pc
+      className="md:hidden landscape:sm:hidden mt-[5%]" 
       modules={[Pagination, Navigation, A11y]}
       hideOnClick= {false}
       spaceBetween={50}
@@ -68,10 +56,9 @@ const ThirdPage = () => {
       <SwiperSlide><a href="https://cazio.surge.sh"><img src={calculator} alt="Ma calculatrice" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/Calculator"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
     </Swiper>
 
-    //! landscape mobile version
 
     <Swiper 
-      className="hidden landscape:sm:block landscape:xl:hidden landscape:sm:mt-[1%] landscape:sm:w-[80%] md:block md:mt-[5%]" //! passez en block pour affichage landscape portable et landscape xl:block pour la version pc
+      className="hidden landscape:sm:block landscape:xl:hidden landscape:sm:mt-[1%] landscape:sm:w-[80%] md:block md:mt-[5%]" 
       modules={[Pagination, Navigation, A11y]}
       hideOnClick= {false}
       spaceBetween={10}
@@ -86,9 +73,9 @@ const ThirdPage = () => {
     </Swiper>
 
     
-    //!xl version
+
     <Swiper 
-      className="hidden landscape:xl:block mt-[1%] landscape:xl:w-[60%]" //! passez en block pour affichage landscape portable et landscape xl:block pour la version pc
+      className="hidden landscape:xl:block mt-[2%] landscape:xl:w-[60%]" 
       modules={[Pagination, Navigation, A11y]}
       hideOnClick= {false}
       spaceBetween={50}
@@ -104,7 +91,7 @@ const ThirdPage = () => {
 
     {/*stack */}
     <div className="mt-[5%] md:mt-[5%] lg:mt-[5%] landscape:mt-[5%] landscape:md:mt-[2%] lg:landscape:mt-1%] landscape:xl:block ">
-      <p className="text-white ml-[10%] font-bold md:text-2xl lg:text-3xl lg:landscape:text-2xl md:landscape:mt-[5%] md:mt-[1%] xl:landscape:text-4xl xl:landscape:mt-[3%] xl:text-5xl landscape:sm:mt-[5%] landscape:lg:mt-[1%] ">STACK TECHNIQUE</p>
+      <p className="text-white ml-[10%] font-bold md:text-2xl lg:text-3xl lg:landscape:text-2xl md:landscape:mt-[5%] md:mt-[1%] xl:landscape:text-4xl xl:landscape:mt-[2%] xl:text-5xl landscape:sm:mt-[5%] landscape:lg:mt-[1%] ">STACK TECHNIQUE</p>
         <div className="hidden md:landscape:hidden md:landscape:flex md:landscape:justify-around md:landscape:mr-[7%] md:landscape:ml-[7%] md:landscape:mt-[5%] lg:hidden landscape:lg:block landscape:lg:flex lg:flex justify-around lg:ml-[7%] lg:mr-[7%] lg:mt-[3%]  landscape:xl:mt-[2%]">
           <div className="tooltip lg:w-[5%] landscape:xl:w-[3%] landscape:md:w-[6%]">
             <svg viewBox="0 0 128 128">
