@@ -42,7 +42,7 @@ const ThirdPage = () => {
 
 
     <Swiper 
-      className="md:hidden landscape:sm:hidden mt-[5%]" 
+      className="md:hidden landscape:sm:hidden mt-[10%]" 
       modules={[Pagination, Navigation, A11y]}
       hideOnClick= {false}
       spaceBetween={50}
@@ -51,9 +51,9 @@ const ThirdPage = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide> <a href="http://mypiggybank.surge.sh"><img src={piggySlide} alt="Mon portfolio" className="w-[75%] mx-auto rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
-      <SwiperSlide><a href="https://julien-pernot.vercel.app"><img src={portffolio} alt="Mon portfolio" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-portfolio"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
-      <SwiperSlide><a href="https://cazio.surge.sh"><img src={calculator} alt="Ma calculatrice" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/Calculator"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide> <a href="http://mypiggybank.surge.sh" target="_blank" rel="noreferrer" ><img src={piggySlide} alt="Mon portfolio" className="w-[75%] mx-auto rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide><a href="https://julien-pernot.vercel.app" target="_blank" rel="noreferrer" ><img src={portffolio} alt="Mon portfolio" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-portfolio"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide><a href="https://cazio.surge.sh" target="_blank" rel="noreferrer" ><img src={calculator} alt="Ma calculatrice" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/Calculator"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
     </Swiper>
 
 
@@ -67,9 +67,9 @@ const ThirdPage = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide> <a href="http://mypiggybank.surge.sh"><img src={piggySlide} alt="Mon portfolio" className="w-[75%] mx-auto rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
-      <SwiperSlide><a href="https://julien-pernot.vercel.app"><img src={portffolio} alt="Mon portfolio" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-portfolio"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
-      <SwiperSlide><a href="https://cazio.surge.sh"><img src={calculator} alt="Ma calculatrice" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/Calculator"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide> <a href="http://mypiggybank.surge.sh" target="_blank" rel="noreferrer" ><img src={piggySlide} alt="Mon portfolio" className="w-[75%] mx-auto rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide><a href="https://julien-pernot.vercel.app" target="_blank" rel="noreferrer" ><img src={portffolio} alt="Mon portfolio" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-portfolio"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide><a href="https://cazio.surge.sh" target="_blank" rel="noreferrer" ><img src={calculator} alt="Ma calculatrice" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/Calculator"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
     </Swiper>
 
     
@@ -84,9 +84,9 @@ const ThirdPage = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide> <a href="http://mypiggybank.surge.sh"><img src={piggySlide} alt="Mon portfolio" className="w-[75%] mx-auto rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
-      <SwiperSlide><a href="https://julien-pernot.vercel.app"><img src={portffolio} alt="Mon portfolio" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-portfolio"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
-      <SwiperSlide><a href="https://cazio.surge.sh"><img src={calculator} alt="Ma calculatrice" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/Calculator"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide> <a href="http://mypiggybank.surge.sh" target="_blank" rel="noreferrer" ><img src={piggySlide} alt="Mon portfolio" className="w-[75%] mx-auto rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-Piggy-Bank"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide><a href="https://julien-pernot.vercel.app" target="_blank" rel="noreferrer" ><img src={portffolio} alt="Mon portfolio" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/My-portfolio"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
+      <SwiperSlide><a href="https://cazio.surge.sh" target="_blank" rel="noreferrer" ><img src={calculator} alt="Ma calculatrice" className="w-[75%] mx-auto border-[1px] border-white rounded-[5%]"></img></a><a href="https://github.com/Pernot-Julien/Calculator"><img className="w-[7%] mb-[10%] mt-[5%] mx-auto" src={github} alt=""></img></a></SwiperSlide>
     </Swiper>
 
     {/*stack */}
